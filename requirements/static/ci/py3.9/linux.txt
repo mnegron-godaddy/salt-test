@@ -697,7 +697,8 @@ pycparser==2.21 ; python_version >= "3.9"
     #   cffi
 pycryptodomex==3.9.8
     # via -r requirements/crypto.txt
-pycurl==7.43.0.6 ; python_version <= "3.9"
+#pycurl==7.43.0.6 ; python_version <= "3.9"
+pycurl==7.44.0
     # via -r requirements/static/ci/common.in
 pyeapi==0.8.3
     # via napalm
